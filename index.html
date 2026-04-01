@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todd Retail Services Ltd | Retail & Commercial Construction</title>
+  <meta name="description" content="Todd Retail Services Ltd delivers expert retail and commercial construction with quality and precision.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <p class="logo-text">TODD | RETAIL SERVICES LTD</p>
+    </div>
+  </header>
+
+  <section class="hero" aria-label="Construction project highlight image">
+    <div class="hero-overlay"></div>
+  </section>
+
+  <main>
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="about-intro">
+          <h1>Expert Retail &amp; Commercial Construction</h1>
+          <p>Building your vision with quality and precision</p>
+          <a class="btn-primary" href="#contact">CONTACT US</a>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80"
+              alt="Commercial construction team on site"
+            >
+          </div>
+          <article class="vision-card">
+            <h2>Our Vision</h2>
+            <p>
+              At Todd Retail Services Ltd, our vision is to deliver dependable retail and commercial
+              construction services that elevate every space we touch. We combine practical expertise,
+              clear communication, and robust project management to deliver quality outcomes on time
+              and within budget.
+            </p>
+            <p>
+              We partner with clients from first concept through to final handover, ensuring each
+              project reflects your brand, supports your operations, and stands the test of time.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-form-wrap">
+          <h2>Get In Touch</h2>
+          <form class="contact-form" action="#" method="post">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel">
+
+            <label for="address">Address</label>
+            <input id="address" name="address" type="text">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button class="btn-primary" type="submit">Send</button>
+          </form>
+        </div>
+
+        <aside class="company-details">
+          <h2>Company Details</h2>
+          <p><strong>Todd Retail Services Ltd</strong></p>
+          <p>123 High Street<br>Essex<br>United Kingdom</p>
+          <p><a href="tel:+441234567890">+44 1234 567 890</a></p>
+          <p>Mon - Fri: 8:00 AM - 6:00 PM</p>
+          <p>Sat: 9:00 AM - 1:00 PM</p>
+          <p>Sun: Closed</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="map section" aria-label="Company location map">
+      <div class="container">
+        <iframe
+          title="Todd Retail Services Ltd Location"
+          src="https://www.google.com/maps?q=Essex%2C%20UK&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year">2026</span> Todd Retail Services Ltd. All rights reserved.</p>
+      <a href="#" aria-label="Read privacy policy">Privacy Policy</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
