@@ -40,19 +40,19 @@ a {
 .site-header {
   background: #fff;
   border-bottom: 1px solid var(--border);
-  padding: 1.2rem 0;
+  padding: 0.65rem 0;
 }
 
 .site-logo {
   height: auto;
-  width: min(420px, 100%);
+  width: min(320px, 100%);
   margin: 0 auto;
 }
 
 .hero {
   position: relative;
   min-height: 55vh;
-  background-image: url("https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1800&q=80");
+  background-image: url("assets/hero-shopping-centre.png");
   background-position: center;
   background-size: cover;
 }
@@ -220,7 +220,7 @@ a {
 
 @media (max-width: 600px) {
   .site-logo {
-    width: min(320px, 100%);
+    width: min(260px, 100%);
   }
 
   .hero {
