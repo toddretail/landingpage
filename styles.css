@@ -43,12 +43,10 @@ a {
   padding: 1.2rem 0;
 }
 
-.logo-text {
-  margin: 0;
-  text-align: center;
-  letter-spacing: 0.08em;
-  font-weight: 700;
-  color: var(--navy);
+.site-logo {
+  height: auto;
+  width: min(420px, 100%);
+  margin: 0 auto;
 }
 
 .hero {
@@ -221,8 +219,8 @@ a {
 }
 
 @media (max-width: 600px) {
-  .logo-text {
-    font-size: 0.96rem;
+  .site-logo {
+    width: min(320px, 100%);
   }
 
   .hero {
